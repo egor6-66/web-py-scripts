@@ -12,7 +12,6 @@ def start():
     os.chdir(dir_name)
     os.system("git remote add new " + to_where)
     os.system("git push --mirror new")
-
     os.chdir('../.')
     delete_dir(dir_name)
 

@@ -2,7 +2,7 @@ import os
 from bin.dir_workers import delete_dir
 
 def start():
-    print('---git mirroring---')
+    print('----git mirroring----')
     from_where = input('from: ')
     to_where = input('to: ')
     dir_name = from_where.split('/')[-1]
